@@ -1,3 +1,8 @@
 function factorial(n) {
-  // ваш код...
+  let fac = 1;
+  for (let i = 1; i <= n; i++) {
+      fac = fac * i;
+  }
+  return fac; 
 }
+console.log(factorial(n))
